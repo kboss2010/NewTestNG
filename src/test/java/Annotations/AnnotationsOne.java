@@ -8,7 +8,7 @@ import org.testng.annotations.*;
 public class AnnotationsOne {
 
     @BeforeSuite
-    public void beforeSuite(){System.out.println("Before Suite Class One");}
+   // public void beforeSuite(){System.out.println("Before Suite Class One");}
 
     @BeforeTest
     public void beforeTest(){System.out.println("-Before Test Class One");}
